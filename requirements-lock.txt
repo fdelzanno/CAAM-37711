@@ -1,0 +1,8 @@
+# Exact versions the results were produced with (Python 3.10, macOS).
+# Optional: `.venv/bin/pip install -r requirements-lock.txt` to reproduce them exactly.
+numpy==1.26.4
+pandas==2.3.3
+scipy==1.15.3
+scikit-learn==1.7.2
+matplotlib==3.10.9
+torch==2.2.2

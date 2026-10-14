@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+.DS_Store
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.toc
+
+# Intermediate PDF (final copy lives at homework-N/Delzanno-HWN.pdf)
+homework-*/report/homework-*.pdf

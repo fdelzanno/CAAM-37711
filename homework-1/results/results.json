@@ -1,0 +1,50 @@
+{
+  "problem4": {
+    "Linear": {
+      "test_rmse": 0.2871489404964047,
+      "normaltest_stat": 9.659579827521863,
+      "normaltest_p": 0.007988199300431306,
+      "reject_normality_0.05": true
+    },
+    "SVR with RBF": {
+      "test_rmse": 0.22844665104607909,
+      "normaltest_stat": 1.0243091025052342,
+      "normaltest_p": 0.5992031730878866,
+      "reject_normality_0.05": false
+    },
+    "Decision tree": {
+      "test_rmse": 0.25317977585312273,
+      "normaltest_stat": 2.6738578242971736,
+      "normaltest_p": 0.2626510557063514,
+      "reject_normality_0.05": false
+    },
+    "Neural net": {
+      "test_rmse": 0.23612788851346764,
+      "normaltest_stat": 2.6162094405510947,
+      "normaltest_p": 0.27033192578142484,
+      "reject_normality_0.05": false
+    }
+  },
+  "problem5_classification": {
+    "sklearn baseline": {
+      "test_accuracy": 0.9649122807017544
+    },
+    "SGD (logistic model)": {
+      "test_accuracy": 0.9736841917037964
+    },
+    "SGD (probit model)": {
+      "test_accuracy": 0.9561403393745422
+    }
+  },
+  "problem5_regression": {
+    "sklearn LinearRegression": {
+      "test_mae": 0.16926313457129682
+    },
+    "SGD, MSE loss": {
+      "test_mae": 0.16997909545898438
+    },
+    "SGD, Student-$t$ NLL ($\\nu=5$)": {
+      "test_mae": 0.16919206082820892
+    }
+  }
+}
