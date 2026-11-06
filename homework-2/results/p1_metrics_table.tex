@@ -1,0 +1,11 @@
+\begin{tabular}{lrrrrrr}
+\toprule
+Model & NLL & RMSE & MAE & MAE (min) & Cover 68\% & Cover 95\% \\
+\midrule
+Constant & 1.172 & 0.781 & 0.615 & 5.57 & 0.697 & 0.964 \\
+Linear regression & 0.885 & 0.586 & 0.438 & 4.63 & 0.727 & 0.957 \\
+Gradient boosting & 0.448 & 0.379 & 0.259 & 2.30 & 0.787 & 0.956 \\
+MLP (MSE loss) & 0.461 & 0.383 & 0.264 & 2.37 & 0.784 & 0.955 \\
+MLP (Gaussian NLL) & 0.239 & 0.380 & 0.258 & 2.29 & 0.702 & 0.948 \\
+\bottomrule
+\end{tabular}

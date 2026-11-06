@@ -1,0 +1,12 @@
+\begin{tabular}{lrrr}
+\toprule
+Model & Brier score & Log-loss & Accuracy \\
+\midrule
+Always predict $<$45 min & 0.0045 & -- & 0.9955 \\
+Constant & 0.0046 & 0.0327 & 0.9955 \\
+Linear regression & 0.0122 & 0.0453 & 0.9838 \\
+Gradient boosting & 0.0029 & 0.0160 & 0.9968 \\
+MLP (MSE loss) & 0.0033 & 0.0176 & 0.9965 \\
+MLP (Gaussian NLL) & 0.0028 & 0.0170 & 0.9966 \\
+\bottomrule
+\end{tabular}
